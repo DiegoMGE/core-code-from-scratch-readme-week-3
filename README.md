@@ -1,1 +1,2 @@
-# core-code-from-scratch-readme-week-3
+# Diego Orellana - CoreCode Bootcamp 🚀
+## Week 3
