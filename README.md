@@ -1,7 +1,10 @@
 # Diego Orellana - CoreCode Bootcamp 🚀
 ## Week 3
-### Monday Challenges
-## Simple Calculator
+## Monday Challenges
+- [simple calculator]()
+- [special number]()
+
+### Simple Calculator
 ```python
 Algoritmo simpleCalculator
 	Imprimir '======= Simple Calculator ======='
@@ -35,10 +38,27 @@ Algoritmo simpleCalculator
 FinAlgoritmo
 ```
 
-## Special number
+### Special number
+```python
+Algoritmo specialNumber
+	Leer n
+	Si n == 100 Entonces
+		Imprimir 'This is a special number'
+	SiNo 
+		Si (n < 1000) & (n <> 100) & ((n % 10) == 0) Entonces
+			Imprimir 'This number is almost special'
+		SiNo
+			Imprimir 'Just a regular number!'
+		FinSi
+	FinSi
+FinAlgoritmo
+```
 
-### Tuesday Challenges
-## Simple calculator with Switch
+## Tuesday Challenges
+- [Simple Calculator with Switch]()
+- [Multi Option Program]()
+
+### Simple calculator with Switch
 ```python
 Algoritmo simpleCalculator
 	Imprimir '======= Simple Calculator ======='
@@ -72,12 +92,15 @@ Algoritmo simpleCalculator
 FinAlgoritmo
 ```
 
-## Multi Option Program
+### Multi Option Program
 
 
-### Wednesday Challenges
+## Wednesday Challenges
+- []()
+- []()
 
-
-### Thursday Challenges
+## Thursday Challenges
+- []()
+- []()
 
 .
