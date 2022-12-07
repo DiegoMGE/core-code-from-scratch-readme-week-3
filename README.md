@@ -12,7 +12,25 @@ Algoritmo simpleCalculator
 	Imprimir 'Ingrese el tipo operación: +, -, *, /'
 	Leer operation
 	
-	...
+	Si operation == '+' Entonces
+		Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+		Imprimir 'Resultado: ' ConvertirATexto(n1+n2)
+	FinSi
+	Si operation == '-' Entonces
+		Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+		Imprimir 'Resultado: ' ConvertirATexto(n1-n2)
+	FinSi
+	Si operation == '*' Entonces
+		Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+		Imprimir 'Resultado: ' ConvertirATexto(n1*n2)
+	FinSi
+	Si operation == '/' Entonces
+		Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+		Si n2 == 0 Entonces 
+			Imprimir 'Indefinido matemáticamente'
+		FinSi
+		Imprimir 'Resultado: ' ConvertirATexto(n1/n2)
+	FinSi
 	
 FinAlgoritmo
 ```
