@@ -2,7 +2,7 @@
 ## Week 3
 ### Monday Challenges
 ## Simple Calculator
-```
+```python
 Algoritmo simpleCalculator
 	Imprimir '======= Simple Calculator ======='
 	Imprimir 'Ingrese el primer número'
@@ -39,7 +39,7 @@ FinAlgoritmo
 
 ### Tuesday Challenges
 ## Simple calculator with Switch
-```
+```python
 Algoritmo simpleCalculator
 	Imprimir '======= Simple Calculator ======='
 	Imprimir 'Ingrese el primer número'
