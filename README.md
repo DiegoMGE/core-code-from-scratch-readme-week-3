@@ -10,7 +10,7 @@ Algoritmo simpleCalculator
 	Imprimir '======= Simple Calculator ======='
 	Imprimir 'Ingrese el primer número'
 	Leer n1
-	Imprimir "Ingrese el segundo número'
+	Imprimir 'Ingrese el segundo número'
 	Leer n2
 	Imprimir 'Ingrese el tipo operación: +, -, *, /'
 	Leer operation
@@ -185,20 +185,26 @@ Algoritmo simpleCalculatorDoWhile
 		Imprimir 'Ingrese la operación: +, -, *, /'
 		Leer operation
 		
-		Si operation == '+' | operation == '-' | operation == '*' | operation == '/' Entonces
-			Imprimir 'Procesando: ' + ConvertirATexto(n1) ' ' operation ' ' ConvertirATexto(n2)
-			Segun operation Hacer
-				'+':
-					Imprimir 'Resultado: ' ConvertirATexto(n1 + n2)
-				'-':
-					Imprimir 'Resultado: ' ConvertirATexto(n1 - n2)
-				'*':
-					Imprimir 'Resultado: ' ConvertirATexto(n1 * n2)
-				'/':
-					Imprimir 'Resultado: ' ConvertirATexto(n1 / n2)
-			FinSegun
-		SiNo
-			Imprimir 'La operación no es válida!'
+		Si operation == '+' Entonces
+			Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+			Imprimir 'Resultado: ' ConvertirATexto(n1+n2)
+		FinSi
+		Si operation == '-' Entonces
+			Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+			Imprimir 'Resultado: ' ConvertirATexto(n1-n2)
+		FinSi
+		Si operation == '*' Entonces
+			Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+			Imprimir 'Resultado: ' ConvertirATexto(n1*n2)
+		FinSi
+		Si operation == '/' Entonces
+			Si n2 == 0 Entonces 
+				Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+				Imprimir 'Indefinido matemáticamente'
+			SiNo
+				Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+				Imprimir 'Resultado: ' ConvertirATexto(n1/n2)
+			FinSi
 		FinSi
 		
 		Imprimir 'Deseas continuar con otra operación? Si / No'
