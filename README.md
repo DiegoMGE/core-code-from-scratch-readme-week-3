@@ -28,11 +28,13 @@ Algoritmo simpleCalculator
 		Imprimir 'Resultado: ' ConvertirATexto(n1*n2)
 	FinSi
 	Si operation == '/' Entonces
-		Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
 		Si n2 == 0 Entonces 
+			Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
 			Imprimir 'Indefinido matemáticamente'
+		SiNo
+			Imprimir 'Procesando: ' n1 ' ' operation ' ' n2
+			Imprimir 'Resultado: ' ConvertirATexto(n1/n2)
 		FinSi
-		Imprimir 'Resultado: ' ConvertirATexto(n1/n2)
 	FinSi
 	
 FinAlgoritmo
@@ -66,7 +68,7 @@ Algoritmo simpleCalculator
 	Leer n1
 	Imprimir "Ingrese el segundo número'
 	Leer n2
-	Imprimir 'Ingrese el tipo operación: +, -, *, /'
+	Imprimir 'Ingrese la operación: +, -, *, /'
 	Leer operation
 	
 	Segun operation Hacer
@@ -80,11 +82,13 @@ Algoritmo simpleCalculator
 			Imprimir "Procesando: " n1 operation n2
 			Imprimir "Resultado: " ConvertirATexto(n1*n2)
 		'/':
-			Imprimir "Procesando: " n1 operation n2
 			Si n2 == 0 Entonces 
+				Imprimir "Procesando: " n1 operation n2
 				Imprimir "Indefinido"
+			SiNo
+				Imprimir "Procesando: " n1 operation n2
+				Imprimir "Resultado: " ConvertirATexto(n1/n2)
 			FinSi
-			Imprimir "Resultado: " ConvertirATexto(n1/n2)
 		De Otro Modo:
 			Imprimir 'Operación inválida'
 	FinSegun
@@ -170,7 +174,38 @@ FinAlgoritmo
 ```
 
 ### Simple Calculator with Do While
-
+```python
+Algoritmo simpleCalculatorDoWhile
+	Imprimir '======= Simple Calculator ======='
+	Repetir 
+		Imprimir 'Ingrese el primer número'
+		Leer n1
+		Imprimir "Ingrese el segundo número'
+		Leer n2
+		Imprimir 'Ingrese la operación: +, -, *, /'
+		Leer operation
+		
+		Si operation == '+' | operation == '-' | operation == '*' | operation == '/' Entonces
+			Imprimir 'Procesando: ' + ConvertirATexto(n1) ' ' operation ' ' ConvertirATexto(n2)
+			Segun operation Hacer
+				'+':
+					Imprimir 'Resultado: ' ConvertirATexto(n1 + n2)
+				'-':
+					Imprimir 'Resultado: ' ConvertirATexto(n1 - n2)
+				'*':
+					Imprimir 'Resultado: ' ConvertirATexto(n1 * n2)
+				'/':
+					Imprimir 'Resultado: ' ConvertirATexto(n1 / n2)
+			FinSegun
+		SiNo
+			Imprimir 'La operación no es válida!'
+		FinSi
+		
+		Imprimir 'Deseas continuar con otra operación? Si / No'
+		Leer continue
+	Hasta Que continue == 'No' | continue == 'no'
+FinAlgoritmo
+```
 
 ## Thursday Challenges
 - [Multiplication Tables with For]()
