@@ -147,8 +147,8 @@ FinAlgoritmo
 ```
 
 ## Wednesday Challenges
-- [Multiplication Tables]()
-- [Simple Calculator with Do While]()
+- [Multiplication Tables](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/blob/main/README.md#multiplication-tables)
+- [Simple Calculator with Do While](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/blob/main/README.md#simple-calculator-with-do-while)
 
 ### Multiplication Tables
 ```python
