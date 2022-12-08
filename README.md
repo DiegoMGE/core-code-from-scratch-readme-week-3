@@ -150,6 +150,28 @@ FinAlgoritmo
 - [Multiplication Tables]()
 - [Simple Calculator with Do While]()
 
+### Multiplication Tables
+```python
+Algoritmo multiplicationTables
+	start <- 1
+	end <- 10
+	
+	Imprimir '======= Multiplication Tables ======='
+	Imprimir 'Ingrese la tabla a calcular:'
+	Leer tabla
+	Imprimir 'Tabla de ' tabla
+	
+	Mientras start <= end Hacer
+		Imprimir tabla ' * ' start ' = ' (tabla*start)
+		start <- start + 1
+	FinMientras
+	
+FinAlgoritmo
+```
+
+### Simple Calculator with Do While
+
+
 ## Thursday Challenges
 - [Multiplication Tables with For]()
 - [Ascending and Descending Numbers]()
