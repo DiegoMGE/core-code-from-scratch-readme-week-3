@@ -236,6 +236,29 @@ FinAlgoritmo
 
 ### Ascending and Descending Numbers
 ```python
+Algoritmo ascendingDescending
+	Imprimir '======= Ascending and Descending Numbers ======='
+	Imprimir 'Ingrese un número'
+	Leer num
+	
+	Imprimir 'Operaciones disponibles:'
+	Imprimir '1. Imprimir en orden Ascendente.'
+	Imprimir '2. Imprimir en orden Descendente.'
+	Imprimir 'Ingrese el número de la operación a ejecutar.'
+	Leer op
+	
+	Imprimir 'Has escogido la opción: ' op
+	
+	Si op == 1 Entonces
+		Para i <- 1 Hasta num Con Paso 1 Hacer
+			Escribir i;
+		FinPara
+	SiNo
+		Para i <- num Hasta 0 Con Paso -1 Hacer
+			Escribir i;
+		FinPara
+	FinSi
+FinAlgoritmo
 
 ```
 .
