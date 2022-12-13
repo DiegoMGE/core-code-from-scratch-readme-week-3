@@ -218,4 +218,24 @@ FinAlgoritmo
 - [Ascending and Descending Numbers]()
 - [Greetings]()
 
+### Multiplication Tables with For
+```python
+Algoritmo multiplicationTablesFor
+	end <- 10
+	
+	Imprimir '======= Multiplication Tables ======='
+	Imprimir 'Ingrese la tabla a calcular:'
+	Leer tabla
+	Imprimir 'Tabla de ' tabla
+	
+	Para i <- 1 Hasta end Con Paso 1 Hacer
+		Imprimir tabla ' * ' i ' = ' (tabla*i)
+	FinPara
+FinAlgoritmo
+```
+
+### Ascending and Descending Numbers
+```python
+
+```
 .
