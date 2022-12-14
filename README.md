@@ -214,8 +214,8 @@ FinAlgoritmo
 ```
 
 ## Thursday Challenges
-- [Multiplication Tables with For](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/edit/main/README.md#multiplication-tables-with-for)
-- [Ascending and Descending Numbers](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/edit/main/README.md#ascending-and-descending-numbers)
+- [Multiplication Tables with For](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/blob/main/README.md#multiplication-tables-with-for)
+- [Ascending and Descending Numbers](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/blob/main/README.md#ascending-and-descending-numbers)
 - [Greetings](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/blob/main/README.md#greetings)
 
 ### Multiplication Tables with For
