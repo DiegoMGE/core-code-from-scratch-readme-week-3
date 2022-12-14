@@ -216,7 +216,7 @@ FinAlgoritmo
 ## Thursday Challenges
 - [Multiplication Tables with For](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/edit/main/README.md#multiplication-tables-with-for)
 - [Ascending and Descending Numbers](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/edit/main/README.md#ascending-and-descending-numbers)
-- [Greetings]()
+- [Greetings](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/blob/main/README.md#greetings)
 
 ### Multiplication Tables with For
 ```python
@@ -263,3 +263,31 @@ FinAlgoritmo
 ```
 
 ### Greetings
+```python
+Algoritmo greetings
+	Imprimir '======= Cheers ======='
+	saludos = 0
+	
+	Repetir
+		Imprimir 'Ingrese la hora actual (0-23):'
+		Leer hora
+		
+		Si hora <= 12 Entonces
+			Imprimir 'Buenos días!'
+		SiNo
+			Si hora <= 18 Entonces
+				Imprimir 'Buenas tardes!'
+			SiNo
+				Imprimir 'Buenas noches!'
+			FinSi
+		FinSi
+		
+		saludos = saludos + 1
+		
+		Imprimir 'Desea continuar? Si/No'
+		Leer continue
+		
+	Hasta Que continue == 'no'
+	Imprimir 'Cantidad de Saludos realizados: ' + ConvertirATexto(saludos)
+FinAlgoritmo
+```
