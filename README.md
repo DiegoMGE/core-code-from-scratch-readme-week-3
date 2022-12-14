@@ -214,8 +214,8 @@ FinAlgoritmo
 ```
 
 ## Thursday Challenges
-- [Multiplication Tables with For]()
-- [Ascending and Descending Numbers]()
+- [Multiplication Tables with For](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/edit/main/README.md#multiplication-tables-with-for)
+- [Ascending and Descending Numbers](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-3/edit/main/README.md#ascending-and-descending-numbers)
 - [Greetings]()
 
 ### Multiplication Tables with For
@@ -261,4 +261,5 @@ Algoritmo ascendingDescending
 FinAlgoritmo
 
 ```
-.
+
+### Greetings
